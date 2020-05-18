@@ -13,6 +13,6 @@
 #include "game.h"
 
 int main() {
-    Game game = Game(10, 20);
+    Game game = Game(10, 20); // Game(height, width)
     game.render();
 }
