@@ -2,10 +2,12 @@
 Play as a snake, eat apples and not yourself!
 
 ## Table of Contents
-- [Overview](#overview)
-- [Concepts to Review](#concepts-to-review)
-- [What the Classes Do](#what-the-classes-do)
-- [Project Roadmap](#project-roadmap)
+- [Snake Game](#snake-game)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Concepts to review](#concepts-to-review)
+  - [What the Classes Do](#what-the-classes-do)
+  - [Project Roadmap](#project-roadmap)
 
 ---
 
@@ -37,7 +39,7 @@ To be updated
 
 ## Project Roadmap
 1. Set up classes [Done]
-2. Render empty board
+2. Render empty board [Done]
 3. Render snake
     - Let player move snake
 4. Determine has player dies
