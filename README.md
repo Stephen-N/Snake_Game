@@ -30,6 +30,9 @@ To be updated
 ## What the Classes Do
 - **Snake**
   - Will store data about where the snake is and the direction it's heading.
+  - Assuming the board exists where the bottom-left corner is (0,0), if the snake takes a step up, then the array value for the snake's direction will be UP (UP = {0,1}). 
+      
+    Similarly: Down = {0,-1}; LEFT = {-1, 0}; RIGHT = {1,0}
 - **Apple**
   - Stores apple's location on the board
 - **Game**

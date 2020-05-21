@@ -11,8 +11,26 @@
 #include <vector>
 using namespace std;
 
+/*  The Snake class keeps tracks of the snak's position and direction of travel
+    The positions of the snake will be stored in an array of arrays, each index consisting of an x,y component
+    The direction of travel will be stored in arrays aswell, using the concept of vectors
+*/
 class Snake {
-    
+    vector<vector<int>> body_;
+    vector<vector<int>> direction_;
+public:
+    // constructor, snakes need initial position and direction
+    Snake(vector<vector<int>> init_body, vector<vector<int>> init_direction) {
+        body_ = init_body;
+        direction_ = init_direction;
+    }
+
+    /*  take_step takes input position and adds this position to the front of the snake's body
+        the back position of the snake will be deleted
+    */
+    void take_step(vector<int> position) {
+        
+    }
 };
 
 class Apple {
