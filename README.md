@@ -43,7 +43,7 @@ To be updated
 ## Project Roadmap
 1. Set up classes [Done]
 2. Render empty board [Done]
-3. Render snake
+3. Render snake [Currently In progress]
     - Let player move snake
 4. Determine has player dies
 5. Implement apple point system
